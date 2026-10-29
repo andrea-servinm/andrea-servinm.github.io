@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Andrea Servin · Ingeniera Informática</title>
+<title>Andrea Servín · Ingeniera Informática</title>
 <meta name="description" content="Portafolio de Andrea Servin, Ingeniera Informática y desarrolladora full stack de software a medida en Encarnación, Paraguay.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,27 +15,96 @@
 <canvas id="code-bg" aria-hidden="true"></canvas>
 <div class="wrap">
   <header class="top">
-    <a class="brand" href="#inicio">Andrea Servin</a>
+    <a class="brand" href="#inicio">Andrea Servín</a>
     <nav aria-label="Principal">
+      <a href="#experiencia">Experiencia</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#contacto">Contacto</a>
     </nav>
+    <div class="theme" role="group" aria-label="Tema de color">
+      <button type="button" data-theme-set="light" aria-pressed="false">Claro</button>
+      <button type="button" data-theme-set="dark" aria-pressed="false">Oscuro</button>
+      <button type="button" data-theme-set="system" aria-pressed="true">Sistema</button>
+    </div>
   </header>
 
   <main id="inicio">
     <div class="hero">
       <div>
-        <h1>Software a medida para problemas reales.</h1>
-        <p class="lead">Ingeniera Informática y desarrolladora de software full stack con 5 años de experiencia, en Encarnación, Paraguay. Desarrollo software a medida: interfaces web, APIs, bases de datos relacionales y NoSQL, automatización e integración de IA. Disponible para empleo y proyectos freelance.</p>
+        <h1>Hola, Soy Andrea.</h1>
+        <p class="lead"><strong>+5 años de experiencia.</strong> Ingeniera Informática y desarrolladora de software full stack de Encarnación, Paraguay.</p>
         <div class="cta">
           <a class="btn primary" href="#contacto">Contactarme</a>
-          <a class="btn" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="https://www.linkedin.com/in/andreaservin-ing" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn" href="https://github.com/andrea-servinm" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
+      <div class="avatar">
+        <span aria-hidden="true">AS</span>
+        <img src="foto.webp" alt="Foto de Andrea Servin" width="240" height="240" onerror="this.remove()">
+      </div>
     </div>
   </main>
+
+  <section id="experiencia">
+    <h2 class="title">Experiencia</h2>
+    <div class="jobs">
+      <article class="job">
+        <div>
+          <h3>Integradevs S.A.</h3>
+          <p class="role">Software Developer</p>
+          <p class="when">2021 – actualidad</p>
+        </div>
+        <div>
+          <p>Formo parte de un equipo de desarrollo de un sistema para un sanatorio, en uso desde 2015, realizando constantemente correcciones de bugs, nuevas funcionalidades e integraciones con servidores externos, como la Facturación Electrónica de Paraguay.</p>
+          <ul class="tags"><li>Ruby on Rails</li><li>PostgreSQL</li><li>Node.js</li><li>Git</li><li>JIRA</li><li>Scrum</li><li>Claude Code</li></ul>
+        </div>
+      </article>
+      <article class="job">
+        <div>
+          <h3>Designia Software</h3>
+          <p class="role">Software Developer</p>
+          <p class="when">Oct 2022 – Ene 2023</p>
+        </div>
+        <div>
+          <p>Trabajé dentro de un equipo de desarrollo de un sistema CRM con diversos módulos adaptados a diferentes rubros como ferreterías, restaurantes y comercios en general, realizando correcciones de bugs e implementación de nuevas funcionalidades.</p>
+          <ul class="tags"><li>React.js</li><li>Node.js</li><li>Sequelize.js</li><li>PostgreSQL</li><li>JavaScript</li><li>Git</li><li>GitHub</li><li>JIRA</li><li>Scrum</li></ul>
+        </div>
+      </article>
+    </div>
+
+    <h2 class="title sub">Formación y cursos</h2>
+    <div class="jobs">
+      <article class="job">
+        <div>
+          <h3>Universidad Nacional de Itapúa</h3>
+          <p class="when">2026</p>
+        </div>
+        <div><p>Ingeniería Informática.</p></div>
+      </article>
+      <article class="job">
+        <div>
+          <h3>Make It Real Camp</h3>
+          <p class="when">Nov 2022 – May 2023</p>
+        </div>
+        <div>
+          <p>Desarrollo Web Full Stack.</p>
+          <ul class="tags"><li>Git</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li></ul>
+        </div>
+      </article>
+      <article class="job">
+        <div>
+          <h3>Integradevs Academy</h3>
+          <p class="when">Abr 2020 – Oct 2020</p>
+        </div>
+        <div>
+          <p>Developer Bootcamp de Desarrollo de Software.</p>
+          <ul class="tags"><li>Herramientas de desarrollo</li><li>Programación avanzada con Java</li><li>Inglés</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
 
   <section id="proyectos">
     <h2 class="title">Proyectos</h2>
@@ -66,6 +135,7 @@
       <h3>Portfolio de proyectos</h3>
       <div>
         <p>Sitio que reunirá todos mis proyectos, con la descripción, las tecnologías, la demo y el código de cada uno.</p>
+        <ul class="tags"><li>React</li><li>Bootstrap</li><li>Consumo de API</li><li>Responsive</li></ul>
       </div>
       <span class="status soon">Próximamente</span>
     </article>
@@ -79,8 +149,8 @@
     <div class="about">
       <div>
         <h2 class="title">Sobre mí</h2>
-        <p>Soy Ingeniera Informática y desarrolladora de software con 5 años de experiencia. Me dedico al desarrollo a medida: desde la base de datos hasta la pantalla que ve el usuario.</p>
-        <p>Aprendo construyendo. Cada proyecto de este portafolio nace de una necesidad concreta, tiene pruebas y está publicado para que lo puedas probar.</p>
+        <p>Soy Ingeniera Informática y desarrolladora de software con 5 años de experiencia. Me dedico al desarrollo desde la base de datos hasta la pantalla que ve el usuario.</p>
+        <p>Aprendo construyendo. Cada proyecto nace de una necesidad concreta.</p>
       </div>
       <div class="stack">
         <h2 class="title">Herramientas</h2>
@@ -91,6 +161,7 @@
           <dt>Bases de datos NoSQL</dt><dd>MongoDB</dd>
           <dt>Automatización e IA</dt><dd>Python, integración con APIs de IA</dd>
           <dt>Infraestructura</dt><dd>GitHub Actions</dd>
+          <dt>Herramientas y metodología</dt><dd>Git, GitHub, Jira, Scrum, Claude Code</dd>
         </dl>
       </div>
     </div>
